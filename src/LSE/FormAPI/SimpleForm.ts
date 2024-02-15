@@ -2,6 +2,7 @@ interface Button {
     text: string
     Callback: (player: Player) => void
 }
+
 /**
  * 按钮表单
  */
