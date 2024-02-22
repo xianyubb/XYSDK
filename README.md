@@ -2,6 +2,10 @@
 
 是时候开始一个新项目了
 
+## Build
+
+`git clone https://github.com/xianyubb/XYSDK --recurse-submodules`
+
 ## Structure of the project
 
 ```filetree
@@ -12,7 +16,7 @@ XYSDK/
 |   |-PlayerAPI/
 |   |-FormAPI/
 |   |-...
-| |-Ls/
+| |-LS/
 |   |-PlayerAPI/
 |   |-FormAPI/
 |   |-...

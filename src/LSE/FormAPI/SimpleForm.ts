@@ -14,15 +14,15 @@ export class XYSimpleForm {
     form: SimpleForm
 
     /**
-     * 
+     * @constructor
      * @param title 表单标题
      * @param content 表单内容
      * @param player 要发送表单的玩家
      */
     constructor(title: string, content: string, player: Player) {
-        this.player = player
-        this.form = mc.newSimpleForm()
-        this.form.setTitle(title).setContent(content)
+        this.player = player;
+        this.form = mc.newSimpleForm();
+        this.form.setTitle(title).setContent(content);
     }
 
     /**
