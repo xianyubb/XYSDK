@@ -1,7 +1,7 @@
 {
-  "name": "xianyubb-bot",
+  "name": "xysdk",
   "version": "0.3.0",
-  "description": "xianyubb-bot",
+  "description": "xysdk",
   "main": "index.js",
   "author": {
     "name": "xianyubb"

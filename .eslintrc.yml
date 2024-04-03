@@ -1,4 +1,4 @@
-e:\Code\xianyubb-bot\package.jsonenv:
+env:
   commonjs: true
   es2021: true
   node: true

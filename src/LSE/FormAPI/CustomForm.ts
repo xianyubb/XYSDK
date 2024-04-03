@@ -6,16 +6,19 @@ interface Control {
     Callback: (data: any, player: Player) => void
 }
 
+
 /**
  * 自定义表单
  */
 export class XYCustomForm {
     player: Player
+
     form: CustomForm
 
     ControlList: Control[] = []
 
     Controlid: number = -1
+
     /**
      * 
      * @param title 表单标题

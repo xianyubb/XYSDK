@@ -1,6 +1,7 @@
 
 export class PlayerEvents {
-    constructor() { };
+    // constructor() { };
+
     /**
      * 玩家开始连接服务器
      * @param CallBack 回调函数
@@ -48,7 +49,16 @@ export class PlayerEvents {
          * @param Player 重生的玩家对象
          */
         (Player: Player) => void) {
-        
+        mc.listen("onRespawn", CallBack);
     }
+
+    static PlayerDieEvent(
+        CallBack:
+            (player: Player, source: Entity | null) => void
+    ) {
+        mc.listen('onPlayerDie', CallBack);
+    }
+
+    
 }
 
